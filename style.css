@@ -1,0 +1,77 @@
+a {
+  color: #00B7FF;
+}
+.temperature {
+  font-size: 80px;
+  cursor: pointer;
+}
+#hilo {
+  font-size: 20px;
+}
+a .fa {
+  margin-right: 5px;
+}
+.input-group {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-brand i {
+  margin-right: 5px;
+}
+#data {
+  margin-right: 5px;
+}
+#results > .row {
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+.temperature > .icon, .windicon {
+  font-size: 38px;
+  margin-right: 7px;
+  color: #777;
+}
+.windicon {
+  color: #444;
+}
+.windtext {
+  font-size: 38px;
+}
+.temperature > .units {
+  font-size: 40px;
+  vertical-align: 28px;
+}
+#weathericon {
+  font-size: 200px;
+}
+#desc {
+  margin-top: 50px;
+}
+.well {
+  background-color: rgba(245, 245, 245, 0.7);
+}
+.navbar-fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-brand {
+  color: white;
+}
+.landing-page .parallax .container {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+body {
+  background: url(http://rpgvienna.com/fcc/images/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
