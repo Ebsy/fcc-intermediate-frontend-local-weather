@@ -1,4 +1,4 @@
-var apikey = "17ed1c127b77ec0f2585f9f6c704fc49"
+var apikey = '17ed1c127b77ec0f2585f9f6c704fc49';
 
 var apicall = 'http://api.openweathermap.org/data/2.5/weather?q=[INPUT]&appid=' + apikey + '&units=metric';
 var autoapicall = 'http://api.openweathermap.org/data/2.5/weather' + '?lat=[LAT]&lon=[LON]&appid=' + apikey + '&units=metric';
@@ -26,7 +26,7 @@ $(document).ready(function() {
     }
 
     function handleError() {
-      $('.loader').html('<h4>Unable to retrieve location automatically.</h4>')
+      $('.loader').html('<h4>Unable to retrieve location automatically.</h4>');
     }
 
     if (navigator.geolocation) {
